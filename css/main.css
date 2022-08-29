@@ -1,0 +1,50 @@
+/***** RESET *****/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***** GLOBAL STYLES *****/
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #141519;
+  font-family: 'Overpass', sans-serif;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+p {
+  color: #959EAC;
+  font-size: 15px;
+}
+
+/***** MOBILE *****/
+
+.card {
+  background-color: #252D37;
+  height: 360px;
+  width: 88vw;
+}
+}
+
+/***** FRONT-END MENTOR STYLES *****/
+
+.attribution
+  { font-size: 11px; text-align: center; }
+
+.attribution a
+  { color: hsl(228, 45%, 44%); }
