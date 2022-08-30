@@ -1,5 +1,9 @@
 /***** RESET *****/
 
+.attention {
+  outline: 1px solid red;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,10 +39,47 @@ p {
 /***** MOBILE *****/
 
 .card {
+  display: flex;
+  justify-content: center;
   background-color: #252D37;
   height: 360px;
   width: 88vw;
+  border-radius: 15px;
 }
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  margin: 2rem 0;
+}
+
+.content-wrapper p {
+  line-height: 1.5rem;
+}
+
+#star-icon {
+  background-color: rgb(124, 135, 152, 0.5);
+  padding: .75rem;
+  border-radius: 20px;
+}
+
+.rating-numbers {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #959EAC;
+}
+
+.btn-submit {
+  width: 100%;
+  border: none;
+  background-color: #FB7413;
+  color: #FFF;
+  padding: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 20px;
 }
 
 /***** FRONT-END MENTOR STYLES *****/
