@@ -72,6 +72,14 @@ p {
   color: #959EAC;
 }
 
+input {
+  display: none;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
 .btn-submit {
   width: 100%;
   border: none;
