@@ -72,12 +72,24 @@ p {
   color: #959EAC;
 }
 
-input {
-  display: none;
+label {
+  background-color: rgb(124, 135, 152, 0.5);
+  padding: .75rem 1rem;;
+  border-radius: 20px;
 }
 
 label:hover {
   cursor: pointer;
+  background-color: #FB7413;
+  transition: background-color .3s;
+}
+
+/* input[type="radio"] {
+  display: none;
+} */
+
+label > input[type="radio"]:checked {
+  background-color: rgb(124, 135, 152);
 }
 
 .btn-submit {
