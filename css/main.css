@@ -60,9 +60,18 @@ p {
 }
 
 #star-icon {
-  background-color: rgb(124, 135, 152, 0.5);
+  background-color: rgb(124, 135, 152, 0.3);
   padding: .75rem;
   border-radius: 20px;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  margin-bottom: .75rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
 }
 
 .rating-numbers {
@@ -70,12 +79,16 @@ p {
   justify-content: space-between;
   width: 100%;
   color: #959EAC;
+  margin-bottom: 1.3rem;
 }
 
 label {
-  background-color: rgb(124, 135, 152, 0.5);
-  padding: .75rem 1rem;;
-  border-radius: 20px;
+  border-radius: 50px;
+  width: 42px;
+  height: 42px;
+  padding: 13px;
+  background-color: rgb(124, 135, 152, 0.3);
+  text-align: center;
 }
 
 label:hover {
@@ -84,9 +97,16 @@ label:hover {
   transition: background-color .3s;
 }
 
-/* input[type="radio"] {
+label .checked {
+  cursor: pointer;
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+  transition: background-color .3s;
+}
+
+input[type="radio"] {
   display: none;
-} */
+}
 
 label > input[type="radio"]:checked {
   background-color: rgb(124, 135, 152);
