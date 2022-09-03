@@ -37,16 +37,18 @@ p {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 /***** MOBILE *****/
+
+/***** Rating Card *****/
 
 .card {
   display: flex;
   justify-content: center;
   background-color: #252D37;
-  height: 360px;
+  height: 400px;
   width: 88vw;
   border-radius: 15px;
 }
@@ -80,7 +82,7 @@ p {
   justify-content: space-between;
   width: 100%;
   color: #959EAC;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.75rem;
 }
 
 span {
@@ -88,8 +90,8 @@ span {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   background-color: hsl(217, 12%, 25%);
   text-align: center;
 }
@@ -112,18 +114,14 @@ input[type="radio"] {
   display: none;
 }
 
-/* label > input[type="radio"]:checked {
-  background-color: rgb(124, 135, 152);
-} */
-
 .btn-submit {
   width: 100%;
   border: none;
   background-color: #FB7413;
   color: #FFF;
-  padding: 0.8rem;
+  padding: 1.1rem;
   text-transform: uppercase;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .btn-submit:hover {
@@ -131,6 +129,28 @@ input[type="radio"] {
   background-color: #FFF;
   color: #FB7413;
   transition: background-color .3s;
+}
+
+#thankyou-card .content-wrapper {
+  justify-content: center;
+  align-items: center;
+}
+
+/***** Thank You Card *****/
+
+.img-thankyou {
+  margin: 1.5rem 0 .75rem 0;
+}
+
+#thankyou-card p {
+  text-align: center;
+}
+
+.submitted-rating {
+  color: #FB7413;
+  background-color: hsl(217, 12%, 25%);
+  border-radius: 20px;
+  padding: .35rem .9rem;
 }
 
 /***** FRONT-END MENTOR STYLES *****/

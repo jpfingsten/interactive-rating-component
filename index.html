@@ -30,8 +30,8 @@ Doublecheck that the radio buttons are actually circular -->
 
 
   <main>
-    <div class="card rating-card">
-      <div class="content-wrapper hidden">
+    <div class="card" id="rating-card">
+      <div class="content-wrapper">
         <span class="star-icon">
           <img id="star-icon" src="img/icon-star.svg" alt="star icon">
         </span>
@@ -64,20 +64,27 @@ Doublecheck that the radio buttons are actually circular -->
         <button class="btn-submit">Submit</button>
       </div>
     </div>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <div class="card hidden" id="thankyou-card">
+      <div class="content-wrapper">
+        <img class="img-thankyou" src="img/illustration-thank-you.svg" alt="graphic of smartphone with reciept and charge card" />
+        <p class="submitted-rating">You selected <!-- Add rating here --> out of 5</p>
+
+        <h2>Thank you!</h2>
+
+        <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+      </div>
+
+      <!-- Thank you state end -->
+
+    </div>
+
   </main>
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support,
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
 
   <footer>
     <div class="attribution">
