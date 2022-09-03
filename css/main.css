@@ -29,6 +29,7 @@ main {
 
 h2 {
   color: #ffffff;
+  margin-bottom: .9rem;
 }
 
 p {
@@ -67,10 +68,6 @@ p {
 
 .star-icon {
   margin-bottom: 1.5rem;
-}
-
-h2 {
-  margin-bottom: .75rem;
 }
 
 p {
@@ -119,7 +116,7 @@ input[type="radio"] {
   border: none;
   background-color: #FB7413;
   color: #FFF;
-  padding: 1.1rem;
+  padding: 1rem;
   text-transform: uppercase;
   border-radius: 30px;
 }
@@ -139,11 +136,15 @@ input[type="radio"] {
 /***** Thank You Card *****/
 
 .img-thankyou {
-  margin: 1.5rem 0 .75rem 0;
+  margin: 1rem 0 1.6rem 0;
 }
 
 #thankyou-card p {
   text-align: center;
+}
+
+#thankyou-card h2 {
+  margin-top: .5rem;
 }
 
 .submitted-rating {
