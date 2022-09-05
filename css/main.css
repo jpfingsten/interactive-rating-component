@@ -59,7 +59,7 @@ p {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
-  margin: 2rem;
+  margin: 1.6rem;
 }
 
 .content-wrapper p {
@@ -68,6 +68,10 @@ p {
 
 .star-icon {
   margin-bottom: 1.5rem;
+}
+
+.star-icon img {
+    width: 35%;
 }
 
 p {
@@ -87,10 +91,14 @@ span {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  height: 45px;
-  width: 45px;
+  min-height: 42px;
+  min-width: 42px;
   background-color: hsl(217, 12%, 25%);
   text-align: center;
+}
+
+.rating-number {
+   padding-top: 3px;
 }
 
 span.rating-number:hover {
@@ -119,6 +127,7 @@ input[type="radio"] {
   padding: 1rem;
   text-transform: uppercase;
   border-radius: 30px;
+  letter-spacing: .2rem;
 }
 
 .btn-submit:hover {
@@ -163,6 +172,11 @@ input[type="radio"] {
   { color: hsl(228, 45%, 44%); }
 
 
+@media screen and (min-width: 768px) {
+    .card {
+        width: 45vw;
+    }
+}
 
 @media screen and (min-width: 1200px) {
   .card {
