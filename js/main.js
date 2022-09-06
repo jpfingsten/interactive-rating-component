@@ -5,8 +5,7 @@ const submittedRatingText = document.querySelector('.submitted-rating');
 
 
 btnSubmit.addEventListener('click', function () {
-  const submittedRatingInput = document.querySelector('input[type=radio]:checked');
-  const submittedRatingValue = submittedRatingInput.value;
+  const submittedRatingValue = document.querySelector('input[type=radio]:checked').value;
 
   submittedRatingText.innerText = `You selected ${submittedRatingValue} out of 5.`;
   ratingCard.classList.add('hidden');
