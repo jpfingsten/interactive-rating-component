@@ -1,6 +1,6 @@
 # Frontend Mentor - Interactive rating component solution
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,7 +16,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -31,37 +31,33 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./solution/rating-card.png)
+![](./solution/active-states.png)
+![](./solution/thank-you.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/jpfingsten/interactive-rating-component)
+- Live Site URL: (https://jpfingsten.github.io/interactive-rating-component/)
 
 ## My process
+
+I jumped into HTML first to create structure for the "rating" card, then used CSS to style everything and threw in my :hover styles. Once those styles were set, I hid the "rating" card and used the same .card div and styles to create the "thank you" card. Once it was styled to my liking, I used some simple JavaScript to grab the clicked rating on the "rating" card and bring it over to the "thank you" card in the appropriate spot, also using that same click event to mark the "rating" card as hidden and bring the "thank you" card into view.
 
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- CSS
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
+
+I'm a newer dev, so I found that I was trying to make things a little more complicated than they needed to be at first. I was really eager to use JavaScript, and I tried to make the logic too complicated. After many attempts at figuring out how to use it to achieve my goal, I realized that everything I needed could live inside a click event.
+
+I also learned that, though making everything super responsive and stretchy and stuff when dragging the
+
+-------------------------------------------------
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
