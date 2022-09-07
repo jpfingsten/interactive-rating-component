@@ -27,9 +27,10 @@ main {
   justify-content: center;
 }
 
-h2 {
+h1 {
   color: #ffffff;
   margin-bottom: .9rem;
+  font-size: 1.5rem;
 }
 
 p {
@@ -50,7 +51,9 @@ p {
   justify-content: center;
   background-color: #252D37;
   height: 400px;
-  width: 88vw;
+  max-width: 375px;
+  width: 100%;
+  margin: 0 10px;
   border-radius: 15px;
 }
 
@@ -170,16 +173,3 @@ input[type="radio"] {
 
 .attribution a
   { color: hsl(228, 45%, 44%); }
-
-
-@media screen and (min-width: 768px) {
-    .card {
-        width: 45vw;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-  .card {
-    width: 23vw;
-  }
-}
