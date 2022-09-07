@@ -52,8 +52,8 @@ p {
   background-color: #252D37;
   height: 400px;
   max-width: 375px;
-  width: 100%;
-  margin: 0 10px;
+  min-width: 350px;
+  margin: 0 2rem;
   border-radius: 15px;
 }
 
