@@ -11,6 +11,9 @@
 ###############################################
 *.xd
 
+# Avoid your project being littered with Visual Studio files!
+.vs
+
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
