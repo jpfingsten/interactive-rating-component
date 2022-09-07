@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-(.solution/rating-card.png)
-(.solution/active-states.png)
-(.solution/thank-you.png)
+[Rating card](solution/rating-card.png)
+[Active states](solution/active-states.png)
+[Thank You card](solution/thank-you.png)
 
 ### Links
 
