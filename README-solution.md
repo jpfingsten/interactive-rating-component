@@ -48,7 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-Being a new dev, I at first wanted to make the JavaScript logic a little complicated. After I realized that pretty much everything I needed could be included in a single click event, I went that route.
+Being a newer dev, I at first wanted to make the JavaScript logic a little complicated. After I realized that pretty much everything I needed could be included in a single click event, I went that route.
 
 I waffled on whether or not to leave the card truly responsive or lock in its width on various screens using media queries. Ultimately, I ended up using media queries with "viewport width" units, and I think at all widths, it still looks pretty good.
 
