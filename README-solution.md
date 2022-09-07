@@ -12,7 +12,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -52,13 +51,11 @@ Being a newer dev, I at first wanted to make the JavaScript logic a little compl
 
 I waffled on whether or not to leave the card truly responsive or lock in its width on various screens using media queries. Ultimately, I ended up using media queries with "viewport width" units, and I think at all widths, it still looks pretty good.
 
+Edit 9/7/22 8:41am: I got some feedback from another FEM user and limited the width of my card to 375px. Looks much nicer! My uncertainty about leaving it too responsive seems warranted.
+
 ### Continued development
 
 I could have used jQuery or React to build this -- I'm really new to React, and this would have been a great exercise in simple state handling. May come back to it and resubmit it as a React component later on!
-
-### Useful resources
-
-Didn't use any memorable resources on this one.
 
 ## Author
 
