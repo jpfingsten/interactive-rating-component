@@ -1,9 +1,5 @@
 /***** RESET *****/
 
-.attention {
-  outline: 1px solid red;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -41,8 +37,6 @@ p {
 .hidden {
   display: none !important;
 }
-
-/***** MOBILE *****/
 
 /***** Rating Card *****/
 
